@@ -47,8 +47,8 @@ st.sidebar.text('This is a sidebar')
 
 rating1 = st.feedback('stars')
 rating2 = st.feedback('faces')
-st.write(f'Rating1: {int(rating1) +1}')
-st.write(f'Rating2: {int(rating2) +1}')
+st.write(f'Rating1: {rating1}')
+st.write(f'Rating2: {rating2}')
 
 color = st.color_picker('Pick a color')
 st.write('Selected color: ', color)
