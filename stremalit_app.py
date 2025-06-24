@@ -19,8 +19,8 @@ st.json({
     "Type": "Chanax"
 })
 st.line_chart([10,12,14,15,20,30,25,20,50])
-if st.button('Սղմի !'):
-    st.write("Սիրում եմ քեզ")
+if st.button('Click me!'):
+    st.write("You clicked ...")
 
 if st.checkbox("Check me!"):
     st.write("Checkbox checked!")
