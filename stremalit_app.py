@@ -18,7 +18,7 @@ st.json({
     "product": "panir",
     "Type": "Chanax"
 })
-# st.line_chart([10,12,14,15,20,30,25,20,50])
+st.line_chart([10,12,14,15,20,30,25,20,50])
 if st.button('Սղմի !'):
     st.write("Սիրում եմ քեզ")
 
@@ -53,10 +53,10 @@ st.write(f'Rating2: {rating2}')
 color = st.color_picker('Pick a color')
 st.write('Selected color: ', color)
 
-# enable = st.checkbox('Enable camera')
-# picture = st.camera_input('Take a pictue', disabled = not enable)
-# if picture:
-#     st.image(picture)
+enable = st.checkbox('Enable camera')
+picture = st.camera_input('Take a pictue', disabled = not enable)
+if picture:
+    st.image(picture)
 
 audio_value = st.audio_input('Record a voice message')
 if audio_value:
